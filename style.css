@@ -17,30 +17,78 @@ header{
 /* MAIN (CORPO DO BONECO) */
 main{
     padding: 50px;
+    text-align: center;
+}
+
+#corpo-cima{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px
 }
 
 /* CABEÇA */
-#cabeca{
-    align-items: center;
+#cabeca img{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 10px;
+    text-align: center;       
+    width: auto;
+    height: 150px;
 }
 
-/* TRONCO: BRAÇOS E TRONCO */
-.tronco{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
+
+/* TRONCO */
+#tronco img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 20px;
+    height: auto;
+}
+
+/* BRAÇOS */
+#bracoe img{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+    width: 90px;
+    height: auto;
+}
+
+#bracod img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around   ;
+    width: 90px;
+    height: auto;
 }
 
 /* PERNAS */
-.pernas{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;   
+#pernad img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;  
+    width: 100px;
+    height: auto; 
+}
+
+#pernae img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;  
+    width: 100px;
+    height: auto; 
 }
 
 /* PALAVRAS */

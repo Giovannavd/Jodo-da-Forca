@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: auto;
+    align-items: center;
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+
+/* MAIN (CORPO DO BONECO) */
+main{
+    padding: 50px;
+}
+
+/* CABEÇA */
+#cabeca{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* TRONCO: BRAÇOS E TRONCO */
+.tronco{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+}
+
+/* PERNAS */
+.pernas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;   
+}
+
+/* PALAVRAS */
+.palavras{
+    
+}

@@ -1,17 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 header{
-    background-color: black;
+    background-color:#333399;
     color: white;
     width: auto;
     align-items: center;
     display: flex;
     padding: 0 10px;
-    justify-content: center;
+    justify-content: space-between;
     letter-spacing: 3px;
+}
+
+header h1:hover{
+    color: red;
+    cursor: pointer;
+    transition: 1.5s ease-out;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
 }
 
 /* MAIN (CORPO DO BONECO) */
@@ -32,66 +52,68 @@ main{
 
 /* CABEÇA */
 #cabeca img{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    text-align: center;       
+    position: absolute;    
     width: auto;
     height: 150px;
+    top: 89px;
+    left: 655px;
 }
 
 
 /* TRONCO */
 #tronco img{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    position: absolute;
     width: 20px;
     height: auto;
+    top: 240px;
 }
 
 /* BRAÇOS */
 #bracoe img{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: space-around;
+    position: absolute;
+    left: 738px;
+    top: 270px;
     width: 90px;
     height: auto;
 }
 
 #bracod img{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around   ;
+    position: absolute;
+    left: 630px;
+    top: 270px;
     width: 90px;
     height: auto;
 }
 
 /* PERNAS */
 #pernad img{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;  
+    position: absolute;
+    top: 400px;
+    left: 620px;
     width: 100px;
     height: auto; 
 }
 
 #pernae img{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;  
+    position: absolute;
+    top: 400px;
+    left: 740px;
     width: 100px;
     height: auto; 
 }
 
 /* PALAVRAS */
 .palavras{
-    
+    font-size: 20pt;
+    font-weight: 400;
+    position: relative;
+    top: 430px;
+    margin-left: 5px;
+}
+
+.linhas{
+    display: flex;
+    margin-top: 540px;
+    margin-left: 530px; 
+
 }

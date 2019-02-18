@@ -117,3 +117,14 @@ main{
     margin-left: 530px; 
 
 }
+
+input{
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 405px;
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: 13pt;
+}

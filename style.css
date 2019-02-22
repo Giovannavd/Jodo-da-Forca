@@ -117,10 +117,34 @@ main{
     margin-left: 5px;
 }
 
-.linhas{
-    display: flex;
+
+
+.respostas{
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+
+   .linhas{
+   
     margin-top: 540px;
     margin-left: 530px; 
+    margin-right: 0
+
+
+} 
+
+.linhas span{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+    margin-left: 100px;
 
 }
 
